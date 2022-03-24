@@ -10,7 +10,7 @@
 
 # To-Do:
 - [ ] Scrape from multiple/different sites
-- [ ] cooldown [High Doubted to be added]
+- [ ] Cooldown [High Doubted to be added]
 - [ ] Proxy Checker
 - [ ] Scrape from every site at once
 - [ ] Make sure yo ass don't skid 💀
