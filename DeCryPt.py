@@ -6,9 +6,9 @@ def http(DeCryPt_HTTP):
     http_proxies = requests.get("https://gimmeproxy.com/api/getProxy?curl=false&protocal=http=true&ipPort=true").text
     http_proxy = str(http_proxies)
     if http_proxy == "Rate limited.":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     elif http_proxy == "Internal Server Error":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     else:
       scraped_http_proxies = open(f"Proxy Scraper by DeCryPt/http.txt", "a")
       scraped_http_proxies.write(f"{http_proxy}\n")
@@ -32,9 +32,9 @@ def socks4(DeCryPt_SOCKS4):
     socks4_proxies = requests.get("https://gimmeproxy.com/api/getProxy?curl=false&protocal=socks4=true&ipPort=true").text
     socks4_proxy = str(socks4_proxies)
     if socks4_proxy == "Rate limited.":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     elif socks4_proxy == "Internal Server Error":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     else:
       scraped_socks4_proxies = open(f"Proxy Scraper by DeCryPt/socks4.txt", "a")
       scraped_socks4_proxies.write(f"{socks4_proxy}\n")
@@ -45,7 +45,7 @@ def socks5(DeCryPt_SOCKS5):
     socks5_proxies = requests.get("https://gimmeproxy.com/api/getProxy?curl=false&protocal=socks5=true&ipPort=true").text
     socks5_proxy = str(socks5_proxies)
     if socks5_proxy == "Rate limited.":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     elif socks5_proxy == "Internal Server Error":
       logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     else:
@@ -58,7 +58,7 @@ def DeCryPt_X(DeCryPt_ERA):
     http_proxies = requests.get("https://gimmeproxy.com/api/getProxy?curl=false&protocal=http=true&ipPort=true").text
     http_proxy = str(http_proxies)
     if http_proxy == "Rate limited.":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     elif http_proxy == "Internal Server Error":
       logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     else:
@@ -88,9 +88,9 @@ def DeCryPt_X(DeCryPt_ERA):
     socks5_proxies = requests.get("https://gimmeproxy.com/api/getProxy?curl=false&protocal=socks5=true&ipPort=true").text
     socks5_proxy = str(socks5_proxies)
     if socks5_proxy == "Rate limited.":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     elif socks5_proxy == "Internal Server Error":
-        logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
+      logging.info(f"{Fore.CYAN}|| {Fore.RESET}{Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}-{Fore.RESET}{Fore.BLUE}] Scrape Failed {Fore.RESET}{Fore.CYAN}|| [{Fore.RESET}{Fore.MAGENTA}!{Fore.RESET}{Fore.CYAN}] Trying again...")
     else:
       scraped_socks5_proxies = open(f"Proxy Scraper by DeCryPt/socks5.txt", "a")
       scraped_socks5_proxies.write(f"{socks5_proxy}\n")
@@ -206,6 +206,7 @@ if __name__ == "__main__":
       print(f"{Fore.BLUE}║{Fore.RESET} {Fore.MAGENTA}[{Fore.RESET}{Fore.CYAN}${Fore.RESET} {Fore.MAGENTA}:{Fore.RESET} {Fore.CYAN}0{Fore.RESET}{Fore.MAGENTA}]{Fore.RESET} {Fore.MAGENTA} ~> {Fore.BLUE}|| [+] Selected SOCKS4 Proxies                       ║{Fore.RESET}")
       thread_count = input(f"{Fore.BLUE}║ {Fore.RESET}{Fore.MAGENTA}[{Fore.RESET}{Fore.CYAN}${Fore.RESET}{Fore.MAGENTA} : {Fore.RESET}{Fore.CYAN}0{Fore.RESET}{Fore.MAGENTA}]  ~>{Fore.RESET} {Fore.BLUE}|| {Fore.BLUE}[{Fore.RESET}{Fore.MAGENTA}+{Fore.RESET}{Fore.BLUE}] Enter A Thread Amount: {Fore.RESET}").join("║")
       if len(thread_count) == 0:
+        socks4_dft = threading.Thread(target=socks4, args=(15, ), daemon=True)
         print(f"{Fore.BLUE}╚══════════════════════════════════════════════════════════════════╝{Fore.RESET}")
         socks4_dft.start()
         socks4_dft.join()
