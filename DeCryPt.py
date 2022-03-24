@@ -111,9 +111,11 @@ def directory_check():
   if not os.path.isdir("".join([directory, folder])):
     print("[-] Proxy Scraping Directory Not Found")
     print("[!] Creating Proxy Scraping Directory")
-    time.sleep(5)
+    time.sleep(2)
     print("[!] Created Proxy Scraping Directory: ")
     os.mkdir("".join([directory, folder]))
+    print("".join([directory, folder]))
+    time.sleep(3)
     try:
       open("Proxy Scraper by DeCryPt/http.txt", "x")
       open("Proxy Scraper by DeCryPt/https.txt", "x")
