@@ -12,6 +12,8 @@
 - [ ] Scrape from multiple/different sites
 - [ ] Cooldown [High Doubted to be added]
 - [ ] Proxy Checker
+- [ ] Use a different User-Agent
+- [ ] Referral? [Maybe but not sure]
 - [ ] Scrape from every site at once
 - [ ] Make sure yo ass don't skid 💀
 
