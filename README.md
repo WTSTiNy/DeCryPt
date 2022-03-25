@@ -14,7 +14,9 @@
 - [ ] Proxy Checker
 - [ ] Use a different User-Agent
 - [ ] Referral? [Maybe but not sure]
+- [ ] Remove duplicated proxies
 - [ ] Scrape from every site at once
 - [ ] Make sure yo ass don't skid 💀
 
-# ⚠️ Notice ⚠️: We ain't in charge of what yo stupid ass do with the proxies [and we coming out with other "tools" in a bit 🙂]
+# ⚠️ Notice ⚠️: We aren't in charge of what you do with the proxies
+# Msg from DeCryPt: DeCryPt v2 Coming very soon [March 30th 2022]
