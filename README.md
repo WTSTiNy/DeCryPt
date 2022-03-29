@@ -8,7 +8,7 @@
 `$ python3 DeCrypt.py`
 
 
-# To-Do:
+# To-Do for v2:
 - [ ] Scrape from multiple/different sites
 - [ ] Cooldown [High Doubted to be added]
 - [ ] Proxy Checker
