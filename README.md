@@ -5,7 +5,7 @@
 
 `$ pip install -r requirements.txt`
 
-`$ python3 DeCrypt.py`
+`$ python3 DeCryPt.py`
 
 
 # To-Do for v2:
