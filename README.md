@@ -26,4 +26,4 @@ Cord: `WTS TiNy#0202`
 
 LZ: [Active ASL Here](https://leakzone.net/User-TiNy)
 
-`Msg from DeCryPt: DeCryPt v2 Coming very soon [March 30th 2022]`
+`Going through "update" so next version getting worked on`
