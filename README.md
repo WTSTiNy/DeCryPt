@@ -19,6 +19,6 @@
 - [ ] Make sure yo ass don't skid 💀
 
 # For Anything:
-Cord: `WTS TiNy#0202`
+Cord: `WTS TiNy#9474`
 
 LZ: [Active ASL Here](https://leakzone.net/User-TiNy)
