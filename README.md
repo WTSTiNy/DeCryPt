@@ -7,7 +7,9 @@
 
 `$ python3 DeCryPt.py`
 
-
+ Working On for V2 as in July, 2024
+[ We're back ! & better]
+ 
 # To-Do for v2:
 - [ ] Scrape from multiple/different sites
 - [ ] Cooldown [High Doubted to be added]
@@ -18,7 +20,6 @@
 - [ ] Scrape from every site at once
 - [ ] Make sure yo ass don't skid 💀
 
-# For Anything:
+# HMU or Pull an Issue
 Cord: `WTS TiNy#9474`
-
 LZ: [Active ASL Here](https://leakzone.net/User-TiNy)
